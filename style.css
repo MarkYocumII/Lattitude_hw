@@ -1,0 +1,38 @@
+h1{
+    background-color: teal;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+body{
+background-color: lightgray;
+
+}
+
+.container{
+    background-color: white;
+    margin: 30px;
+    padding-top: 10px;
+
+}
+
+#page-summary{
+    color: teal;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#temp-latitude{
+    float: left;
+
+}
+
+.main-header{
+    width: 70%;
+}
+
+.visualizations{
+    width: 30%
+}
