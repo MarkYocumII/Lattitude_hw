@@ -18,6 +18,8 @@ body{
 
 #main-image{
     float: left;
+    padding: 10px;
+    background-color: white;
 }
 
 p{
@@ -25,10 +27,10 @@ p{
     line-height: 200%;
 }
 
-#Lattitude{
+.Lattitude{
     color: teal;
     background-color: white;
-    font-size: 20px;
+    font-size: 40px;
     padding: 40px;
      
 }
@@ -36,17 +38,57 @@ p{
 #Visualizations{
     color: teal;
     background-color: white;
-    font-size: 16px;
+    font-size: 26px;
     padding: 30px;
 }
 
 #temp-image{
     float: left;
     height: 250px;
-    width: 60%;
+    width: 50%;
 }
 
 .image-small{
-   height: 200px;
+    height: 200px;
     width: 100%;
+    padding: 0%;
+    margin: 0%;
 }
+
+.image-comp{
+    height: 200px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-align: center;
+    background-color: white;
+}
+
+.comp-header{
+    background-color: white;
+    text-align: center;
+    color: teal;
+    font-size: 26px;
+}
+
+#comp-section{
+    background-color: white;
+}
+
+#section-viz{
+    background-color: white;
+}
+
+.visualizaton-image{
+    float: left;
+    height: 400px;
+    width: 400px;
+
+}
+
+.visualizaton-text{
+    background-color: white;
+    text-align: center;
+    padding: 10%;
+}
+
