@@ -6,11 +6,15 @@
 }
 
 .navbar-header{
-    color: white;
+    /* color: white; */
     background-color: teal;
 }
 
 .navbar-brand a{
+    color: white;
+}
+
+.navbar-header a{
     color: white;
 }
 
@@ -103,7 +107,6 @@ p{
     width: 100%;
 }
 
-
 .visualizaton-text{
     background-color: white;
     text-align: center;
@@ -120,4 +123,10 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 50%
-    }
+}
+
+.viz-image{
+    float: left;
+    padding: 10px;
+    background-color: white;
+}
