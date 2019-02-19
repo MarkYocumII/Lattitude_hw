@@ -97,14 +97,12 @@ p{
 
 #section-viz{
     background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-.visualizaton-image{
-    float: left;
-    height: 400px;
-    width: 400px;
-
-}
 
 .visualizaton-text{
     background-color: white;
@@ -117,3 +115,9 @@ p{
     padding: 40px;
 }
 
+#figure{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+    }
