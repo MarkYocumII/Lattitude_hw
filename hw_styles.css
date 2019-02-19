@@ -76,13 +76,13 @@ p{
 }
 
 .image-comp{
-    height: 200px;
+    height: 320px;
     width: 100%;
     padding: 0%;
     margin: 0%;
     box-align: center;
     background-color: white;
-}
+    }
 
 .comp-header{
     background-color: white;
