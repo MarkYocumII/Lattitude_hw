@@ -1,46 +1,43 @@
 .bg-white{
     background-color: white;
 }
+/* all pages */
 .navbar{
     background-color: white;
 }
-
+/* all pages */
 .navbar-header{
     /* color: white; */
     background-color: teal;
 }
 
+/* all pages */
 .navbar-brand a{
     color: white;
 }
 
+/* all pages */
 .navbar-header a{
     color: white;
 }
 
+/* all pages */
 .navbar li {
     display: inline-block;
 }
+
+/* all pages */
 .navbar li a{
     color: black;
     padding: 10px;
 }
 
+/* all pages */
 body{
     background-color: lightgray;
 }
 
-#main-image{
-    float: left;
-    padding: 10px;
-    background-color: white;
-}
-
-p{
-    background-color: white;
-    line-height: 200%;
-}
-
+/* all pages */
 .Lattitude{
     color: teal;
     background-color: white;
@@ -49,6 +46,26 @@ p{
      
 }
 
+/* index and visualization */
+#main-image{
+    float: left;
+    padding: 10px;
+    background-color: white;
+}
+/* index */
+#temp-image{
+    float: left;
+    height: 250px;
+    width: 50%;
+}
+
+/* all pages */
+p{
+    background-color: white;
+    line-height: 200%;
+}
+
+/*index and visualizations - aside*/
 #Visualizations{
     color: teal;
     background-color: white;
@@ -56,12 +73,7 @@ p{
     padding: 30px;
 }
 
-#temp-image{
-    float: left;
-    height: 250px;
-    width: 50%;
-}
-
+/* index and visualizations - aside images */
 .image-small{
     height: 200px;
     width: 100%;
@@ -69,6 +81,7 @@ p{
     margin: 0%;
 }
 
+/*selected images for visualization pages  */
 #image-select{
     height: 200px;
     width: 100%;
@@ -79,6 +92,7 @@ p{
     border-color: teal;
 }
 
+/* images on comparisons page */
 .image-comp{
     height: 320px;
     width: 100%;
@@ -88,6 +102,7 @@ p{
     background-color: white;
     }
 
+/* headers on comparison page */
 .comp-header{
     background-color: white;
     text-align: center;
@@ -95,10 +110,12 @@ p{
     font-size: 26px;
 }
 
+/* sections on comparisons page */
 #comp-section{
     background-color: white;
 }
 
+/* section on visualization aside */
 #section-viz{
     background-color: white;
     display: block;
@@ -107,17 +124,20 @@ p{
     width: 100%;
 }
 
+/* text on visualization aside*/
 .visualizaton-text{
     background-color: white;
     text-align: center;
     padding: 10%;
 }
 
+/* paragraph text on comparisons page */
 #click-p{
     background-color: white;
     padding: 40px;
 }
 
+/* sections on visualizations page */
 #figure{
     display: block;
     margin-left: auto;
@@ -125,8 +145,8 @@ p{
     width: 50%
 }
 
-.viz-image{
+/* .viz-image{
     float: left;
     padding: 10px;
     background-color: white;
-}
+} */
