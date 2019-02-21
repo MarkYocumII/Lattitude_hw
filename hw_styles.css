@@ -145,8 +145,17 @@ p{
     width: 50%
 }
 
-/* .viz-image{
-    float: left;
-    padding: 10px;
-    background-color: white;
-} */
+#nav-select {
+    visibility: hidden;
+}
+
+@media (max-width: 500px) {
+
+#nav-select {
+    visibility: visible;
+}
+
+.navbar li {
+    visibility: hidden;
+}
+}

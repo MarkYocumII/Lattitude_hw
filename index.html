@@ -18,8 +18,8 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header text-white">
-                <a class="navbar-brand .text-white bg-teal" href="https://markyocumii.github.io/Lattitude_hw/">Lattitude</a>
-            </div> 
+                <a class="navbar-brand" href="https://markyocumii.github.io/Lattitude_hw/">Lattitude</a>
+            </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -40,12 +40,21 @@
                 </li>
                 <li><a target="_blank" href="https://markyocumii.github.io/Lattitude_hw/convertcsv.htm">Data</a></li>
             </ul>
+            <select id="nav-select" name="forma" onchange="location = this.value;">
+                <option value="https://markyocumii.github.io/Lattitude_hw/Visualization_temp.html">Max Temperature
+                </option>
+                <option value="https://markyocumii.github.io/Lattitude_hw/Visualization_humid.html">Humidity</option>
+                <option value="https://markyocumii.github.io/Lattitude_hw/Visualization_cloud.html">Cloudiness</option>
+                <option value="https://markyocumii.github.io/Lattitude_hw/Visualization_wind.html">Wind Speed</option>
+                <option value="https://markyocumii.github.io/Lattitude_hw/comparison.html">Comparison</option>
+                <option value="https://markyocumii.github.io/Lattitude_hw/convertcsv.htm">Data</option>
+            </select>
         </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-md-6 col-sm-12">
+            <div class="col-lg-7 col-md-6 col-sm-12">
                 <div class="Lattitude"><strong>Summary: Latitude vs. X</strong></div>
                 <section>
                     <section>
@@ -63,30 +72,30 @@
                 </section>
             </div>
 
-            <div class="col-lg-4 col-sm-12 bg-white">
+            <div class="col-lg-5 col-sm-12 bg-white">
                 <div id="Visualizations"><strong>Visualizations</strong></div>
                 <section>
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="https://markyocumii.github.io/Lattitude_hw/Visualization_temp.html">
-                                <img class = "image-small" src="Resources/Latitude_vs_Temp.png" alt="Lat vs Temp">
+                                <img class="image-small" src="Resources/Latitude_vs_Temp.png" alt="Lat vs Temp">
                             </a>
                         </div>
                         <div class="col-sm-6">
                             <a href="https://markyocumii.github.io/Lattitude_hw/Visualization_cloud.html">
-                                <img class = "image-small" src="Resources/Latitude_vs_Cloudiness.png" alt="Lat vs Cloud">
+                                <img class="image-small" src="Resources/Latitude_vs_Cloudiness.png" alt="Lat vs Cloud">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="https://markyocumii.github.io/Lattitude_hw/Visualization_humid.html">
-                                <img class = "image-small" src="Resources/Latitude_vs_Humidity.png" alt="Lat vs Humid">
+                                <img class="image-small" src="Resources/Latitude_vs_Humidity.png" alt="Lat vs Humid">
                             </a>
                         </div>
                         <div class="col-sm-6">
                             <a href="https://markyocumii.github.io/Lattitude_hw/Visualization_wind.html">
-                                <img class = "image-small" src="Resources/Latitude_vs_WindSpeed.png" alt="Lat vs Wind">
+                                <img class="image-small" src="Resources/Latitude_vs_WindSpeed.png" alt="Lat vs Wind">
                             </a>
                         </div>
                     </div>
